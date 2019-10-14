@@ -18,6 +18,8 @@
   "homepage": "https://github.com/charukuls/food-blog#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.19.3",
     "startbootstrap-clean-blog": "^5.0.8"
   }
