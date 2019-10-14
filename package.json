@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charukuls/food-blog.git"
+  },
+  "author": "Charu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charukuls/food-blog/issues"
+  },
+  "homepage": "https://github.com/charukuls/food-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "startbootstrap-clean-blog": "^5.0.8"
+  }
+}
