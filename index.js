@@ -14,7 +14,7 @@ mongoose.connect('mongodb://localhost:27017/node-blog', { useNewUrlParser: true 
 const { config, engine } = require('express-edge');
 
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, './public')));
 
 app.use(engine);
 app.set('views', `${__dirname}/views`);
